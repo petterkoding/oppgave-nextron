@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Supermicro 620U-TNR 2U Ultra SuperServer",
+        "ports": ["1 PCI-E 4.0 x8 (internal LP)", "1 PCI-E 4.0 x16 (FH)", "1 PCI-E 4.0 x16 (LP)"],
+        "mount": "2U Rackmount",
+        "prosessor": "Dual Intel Scalable (LGA-4189)",
+        "lagring": "1200 GB",
+        "minne": "DDR4",
+        "support": "ECC supported",
+        "power": "1200W Redundant Titanium"
+    },
+    {
+        "name": "Supermicro 620U-TNR 2U Ultra SuperServer",
+        "ports": ["1 PCI-E 4.0 x8 (internal LP)", "1 PCI-E 4.0 x16 (FH)", "1 PCI-E 4.0 x16 (LP)"],
+        "mount": "2U Rackmount",
+        "prosessor": "Dual Intel Scalable (LGA-4189)",
+        "lagring": "1200 GB",
+        "minne": "DDR4",
+        "support": "ECC supported",
+        "power": "1200W Redundant Titanium"
+    },
+    {
+        "name": "Supermicro 620U-TNR 2U Ultra SuperServer",
+        "ports": ["1 PCI-E 4.0 x8 (internal LP)", "1 PCI-E 4.0 x16 (FH)", "1 PCI-E 4.0 x16 (LP)"],
+        "mount": "2U Rackmount",
+        "prosessor": "Dual Intel Scalable (LGA-4189)",
+        "lagring": "1200 GB",
+        "minne": "DDR4",
+        "support": "ECC supported",
+        "power": "1200W Redundant Titanium"
+    },
+    {
+        "name": "Supermicro 620U-TNR 2U Ultra SuperServer",
+        "ports": ["1 PCI-E 4.0 x8 (internal LP)", "1 PCI-E 4.0 x16 (FH)", "1 PCI-E 4.0 x16 (LP)"],
+        "mount": "2U Rackmount",
+        "prosessor": "Dual Intel Scalable (LGA-4189)",
+        "lagring": "1200 GB",
+        "minne": "DDR4",
+        "support": "ECC supported",
+        "power": "1200W Redundant Titanium"
+    }
+]

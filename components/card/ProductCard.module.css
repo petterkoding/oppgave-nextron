@@ -1,0 +1,163 @@
+.productCard{
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    display: block;
+    color: black;
+    border: 1px solid rgba(3, 9, 95, 0.308);
+    box-shadow: 1px 4px 9px rgba(77, 77, 77, 0.185);
+    padding-bottom: 2em;
+    border-radius: 6px;
+    transition: 0.5s ease-in-out;
+    user-select: none;
+    position: relative;
+}
+.productCard:hover{
+    background: rgb(249, 249, 250);
+    border: 1px solid rgba(13, 22, 156, 0.637);
+    cursor: pointer;
+ 
+}
+.productCard:hover img{
+    scale: 1.03;
+    transition: 0.25s ease-in-out;
+    opacity: 1;
+ 
+}
+
+.productCard:hover button{
+    background:#101330;
+    color: white;
+    transition: 0.4s ease-in-out;
+ 
+}
+
+.stockCount{
+    color: rgb(165, 165, 165);
+    position: absolute;
+    top:1.3em;
+    left: 2.2em;
+    font-size: 0.7em;
+}
+
+.stockCount::before{
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    transform: translate(0%, 25%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: rgb(9, 177, 23);
+    
+}
+
+.productWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 3em;
+}
+
+.productHeading{
+    font-size: calc(4vw+"10px");
+    color: black;
+    margin: 0;
+    padding: .4em 0;
+}
+
+.featlist{
+    list-style: none;
+    color: rgb(48, 48, 48);
+    margin-top: 2em;
+}
+
+.featIcon{
+    width: 15px;
+    height: 15px;
+    color: rgb(6, 6, 124);
+    margin-right: .5em;
+}
+
+.listItemBlock{
+    display: block;
+    padding-bottom: 0.3em;
+}
+
+.inlineItem{
+    display: inline-block;
+    margin-right: .2em;
+    text-transform: capitalize;
+    padding-bottom: 0.3em;
+}
+
+.productImage{
+    width: 100%;
+    padding: 3em 3em 0.5em 3em;
+    transition: 0.5s ease-out;
+    opacity: 0.85;
+    user-select: none;
+}
+
+
+.productButton{
+    background:#fff;
+    padding: 0.8em 5em;
+    border: 1px solid black;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 15px;
+}
+.productButton:hover{
+    cursor: pointer;
+}
+
+
+.konfigRow{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.konfigColumn{
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+    color: rgb(180, 180, 180);
+}
+.konfigColumn span{
+    margin-right: .2em;
+}
+
+
+.konfigIcon{
+    width: 20px;
+    height: 20px;
+    color: rgb(180, 180, 180);
+}
+
+@media screen and (min-width: 681px) {
+    .productWrapper{
+        padding: 0.8em 2em;
+    }
+
+    .productHeading{
+        font-size: 1.2em;
+    }
+
+    .productImage{
+        width: 100%;
+        max-width: 330px;
+        padding: 1.2em 1em 0.3em 1em;
+    }
+
+    .stockCount{
+        top:1em;
+        left: 2.3em;
+        font-size: 0.8em;
+    }
+}
