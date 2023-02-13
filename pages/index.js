@@ -9,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Nextron | Servers, storage and workstations</title>
         <meta name="description" content="React, CSS modules" />
+        <meta name="robots" content="noindex,nofollow"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
