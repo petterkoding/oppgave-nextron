@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Cards from '../components/cards/Cards'
 import { ChevronRightIcon, UserIcon, MagnifyingGlassIcon, Bars3Icon } from '@heroicons/react/24/solid'
+import Hero from '../components/hero/Hero'
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
           <Bars3Icon className="burgerIcon"/>
         </div>
       </nav>
+      <Hero/>
 
       <main className="container main">
        <h1 className="pageHeader">Servers and racks</h1>

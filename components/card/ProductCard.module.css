@@ -1,5 +1,5 @@
 .productCard{
-    background: #ffffff;
+    background: rgb(255, 255, 255);
     width: 100%;
     height: auto;
     display: block;
@@ -13,7 +13,7 @@
     position: relative;
 }
 .productCard:hover{
-    background: rgb(249, 249, 250);
+    background: rgb(217, 224, 231);
     border: 1px solid rgba(13, 22, 156, 0.637);
     cursor: pointer;
  
@@ -26,7 +26,7 @@
 }
 
 .productCard:hover button{
-    background:#101330;
+    background: #283547;
     color: white;
     transition: 0.4s ease-in-out;
  
@@ -57,11 +57,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em 3em;
+    padding: 1em 1.5em;
 }
 
 .productHeading{
-    font-size: calc(4vw+"10px");
+    font-size: 1em;
     color: black;
     margin: 0;
     padding: .4em 0;
@@ -71,6 +71,7 @@
     list-style: none;
     color: rgb(48, 48, 48);
     margin-top: 2em;
+    font-size: 0.8em;
 }
 
 .featIcon{
@@ -102,7 +103,7 @@
 
 
 .productButton{
-    background:#fff;
+    background: transparent;
     padding: 0.8em 5em;
     border: 1px solid black;
     font-weight: 600;
@@ -159,5 +160,9 @@
         top:1em;
         left: 2.3em;
         font-size: 0.8em;
+    }
+
+    .featlist{
+        font-size: 0.9em;
     }
 }

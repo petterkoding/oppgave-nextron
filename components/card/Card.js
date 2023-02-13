@@ -9,7 +9,7 @@ const Card = ({info}) => {
       <span className={styles.stockCount}>in stock</span>
 
       <article className={styles.productWrapper}>
-        <img src="/server.png" className={styles.productImage}/>
+        <img src="/server2.png" className={styles.productImage}/>
         <h4 className={styles.productHeading}>{info.name}</h4>
 
         <div className={styles.konfigRow}>
